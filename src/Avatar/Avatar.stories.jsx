@@ -66,3 +66,12 @@ export const Large = {
     </>
   ),
 };
+
+export const Controls = {
+  args: {
+    loading: false,
+    size: 'tiny',
+    username: 'Tom Cruise',
+    src: 'https://avatars.githubusercontent.com/u/263385',
+  },
+};
