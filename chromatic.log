@@ -1,0 +1,109 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************55fa'
+Retrieving git information
+Retrieved git information
+    → Commit '7a7865f' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.3 for React; using the @storybook/react-vite builder (7.5.3); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 2 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir /var/folders/gd/1pxz0n6s3dq3dv8m6dc5zzqw0000gq/T/chromatic--8480-i3NiWMXS2mnG
+Storybook built in 9 seconds
+    → View build log at /Users/JHur/Projects/learnstorybook-design-system2/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [=                   ] 5%
+    → [=                   ] 7%
+    → [==                  ] 9%
+    → [===                 ] 16%
+    → [====                ] 22%
+    → [=====               ] 24%
+    → [=====               ] 25%
+    → [======              ] 28%
+    → [======              ] 30%
+    → [======              ] 31%
+    → [======              ] 32%
+    → [=======             ] 33%
+    → [=======             ] 35%
+    → [========            ] 39%
+    → [========            ] 41%
+    → [========            ] 42%
+    → [=========           ] 44%
+    → [=========           ] 45%
+    → [=========           ] 47%
+    → [==========          ] 49%
+    → [==========          ] 52%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 57%
+    → [============        ] 58%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [============        ] 62%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 68%
+    → [==============      ] 70%
+    → [==============      ] 71%
+    → [==============      ] 72%
+    → [===============     ] 75%
+    → [===============     ] 77%
+    → [================    ] 78%
+    → [================    ] 79%
+    → [================    ] 80%
+    → [=================   ] 83%
+    → [=================   ] 84%
+    → [=================   ] 87%
+    → [==================  ] 89%
+    → [==================  ] 91%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+Publish complete in 9 seconds
+    → View your Storybook at https://654bccd0523cd2961b16c3e5-wfjutetygo.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=654bccd0523cd2961b16c3e5&number=2
+Running 21 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [=                   ] 1/21  Avatar › Standard 
+    → [==                  ] 2/21  Avatar › Sizes 
+    → [====                ] 4/21  Avatar › Loading 
+    → [=========           ] 9/21  Badge › Negative 
+    → [===========         ] 12/21  Badge › Error 
+    → [============        ] 13/21  Badge › with icon 
+    → [================    ] 17/21  Icon › Labels 
+    → [=================   ] 18/21  Icon › no labels 
+    → [=================== ] 20/21  Icon › Block 
+✖ Found 21 visual changes: Review the changes at https://www.chromatic.com/build?appId=654bccd0523cd2961b16c3e5&number=2
+
+ℹ For CI/CD use cases, this command failed with exit code 1
+Pass --exit-zero-on-changes to succeed this command regardless of changes.
+Pass --auto-accept-changes to succeed and automatically accept any changes.
+Build 2 completed
+    → Tested 21 stories across 5 components; captured 21 snapshots in 46 seconds
+
+
